@@ -1,0 +1,28 @@
+--------Task-1-------
+
+first of all type no to continue.
+then type enable.
+then type configure Terminal.
+then type interface fastEthernet 0/0.
+then ip address 192.168.1.1 255.255.255.0 .
+then type no shutdown.
+
+then for 2nd configuration..
+type interface fastEthernet 0/1.
+then ip address 192.168.1.1 255.255.255.0 .
+then type no shutdown
+then exit.
+
+--------Now for 1st pcs------
+Go to the desktop then ip configuration.
+we provide ip address in first box --> 192.168.1.2
+then in third 192.168.1.1.
+
+--------Now for 2nd pcs------
+Go to the desktop then ip configuration.
+we provide ip address in first box --> 192.168.2.2
+then in third 192.168.2.1.
+
+
+
+
