@@ -1,0 +1,34 @@
+---------Task-2----------
+1- First of all we select two PT routers.
+2- Now we select four computers, two for each router.
+3- Now we connect the routers with computers using automatic wires.
+4- We shall check the router type by hovering on it and connect both routers through wires accordingly.
+------------------------5----------------------
+Now we repeat the commands we used in task-1.
+
+For 2nd pc we use command --> interface fastEthernet 1/0.
+
+We repeat the next steps again.
+
+-------We perform the same commands for the second Router---------
+
+Now we apply settings on all pcs which we done previously on task 1.
+
+Now we apply commands on both routers for multiple connections.
+
+For RIP router.
+we write interface serial 2/0.
+then we write ip address 192.168.5.0.
+then we write no shutdown.
+
+For 2nd router we perform the same steps.
+
+Now for pcs.
+we write router rip.
+Then network 192.168.1.0 for all the 1s.
+Then network 192.168.2.0 for all the 2s.
+Then network 192.168.3.0 for all the 3s.
+Then network 192.168.4.0 for all the 4s.
+Then network 192.168.5.0 for all the 5s.
+
+we repeat the same step for 2nd router.
