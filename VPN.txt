@@ -2,6 +2,7 @@
 -> config Terminal
 -> vlan (any number)
 -> name (any name)
--> init range fa (any (0/x)-any (0/x))
--> switchport mode access vlan (previous number)
+-> int range fa (any (0/x)-any (0/x))
+-> switchport mode access
+-> switchport access vlan (previous number)
 ->now configure all the selected pc
