@@ -1,0 +1,10 @@
+-----------Task-6------------
+1- enable 
+
+2- config terminal
+
+3- no spanning-tree vlan1
+
+then we shall remove the wires .
+
+close the terminal

@@ -1,0 +1,41 @@
+enable
+
+config t
+
+do show vlan
+
+vlan 10
+
+name vbbb
+
+vlan 20
+
+name admin
+
+
+do show vlan
+
+inter range fa 0/2-3
+
+switchport mode access vlan 10
+
+exit
+
+switchport mode access vlan 20
+
+exit
+
+assign ips to both networks
+
+inter fa 0/0
+
+switchport mode trunk
+
+no shutdown
+
+inter fa 0/0.1
+
+encapsulation dot1Q 10
+
+
+repeat for 2nd network

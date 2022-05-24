@@ -1,0 +1,13 @@
+-----task-7------------
+1- enable
+
+2- conf t
+
+3- interface fa 0/2
+
+4- switchport mode trunk
+
+ repeat this in every switch
+
+
+exit

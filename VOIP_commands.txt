@@ -14,7 +14,7 @@
 ----- Telephony Service on Router -----
 1. telephony-service
 2. max-dn [any-number]
-3. max ephones [any-number]
+3. max-ephones [any-number]
 ip source-address 192.168.1.1 port 2000
 4. auto assign 1 to 9
 
