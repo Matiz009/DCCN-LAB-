@@ -1,0 +1,54 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t * -a 4 -s 4 -S UP -v circle -c black -i black
+n -t * -a 0 -s 0 -S UP -v circle -c black -i black
+n -t * -a 5 -s 5 -S UP -v circle -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+n -t * -a 6 -s 6 -S UP -v circle -c black -i black
+n -t * -a 2 -s 2 -S UP -v circle -c black -i black
+n -t * -a 7 -s 7 -S UP -v circle -c black -i black
+n -t * -a 3 -s 3 -S UP -v circle -c black -i black
+l -t * -s 0 -d 3 -S UP -r 20000000 -D 0.01 -c black
+l -t * -s 1 -d 3 -S UP -r 20000000 -D 0.01 -c black
+l -t * -s 2 -d 3 -S UP -r 20000000 -D 0.01 -c black
+l -t * -s 3 -d 4 -S UP -r 20000000 -D 0.01 -c black
+l -t * -s 4 -d 5 -S UP -r 20000000 -D 0.01 -c black
+l -t * -s 4 -d 6 -S UP -r 20000000 -D 0.01 -c black
+l -t * -s 4 -d 7 -S UP -r 20000000 -D 0.01 -c black
++ -t 0.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
+- -t 0.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
+h -t 0.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 -1 ------- null}
+r -t 0.310016 -s 1 -d 3 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
++ -t 0.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
+- -t 0.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
+h -t 0.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 -1 ------- null}
+r -t 0.320032 -s 3 -d 4 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
++ -t 0.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
+- -t 0.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
+h -t 0.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 -1 ------- null}
+r -t 0.330048 -s 4 -d 6 -p tcp -e 40 -c 0 -i 0 -a 0 -x {1.0 6.0 0 ------- null}
++ -t 3.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
+- -t 3.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
+h -t 3.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 -1 ---A--- null}
+r -t 3.310016 -s 1 -d 3 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
++ -t 3.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
+- -t 3.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
+h -t 3.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 -1 ---A--- null}
+r -t 3.320032 -s 3 -d 4 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
++ -t 3.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
+- -t 3.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
+h -t 3.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 -1 ---A--- null}
+r -t 3.330048 -s 4 -d 6 -p tcp -e 40 -c 0 -i 1 -a 0 -x {1.0 6.0 0 ---A--- null}
++ -t 9.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
+- -t 9.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
+h -t 9.3 -s 1 -d 3 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 -1 ---A--- null}
+r -t 9.310016 -s 1 -d 3 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
++ -t 9.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
+- -t 9.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
+h -t 9.310016 -s 3 -d 4 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 -1 ---A--- null}
+r -t 9.320032 -s 3 -d 4 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
++ -t 9.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
+- -t 9.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
+h -t 9.320032 -s 4 -d 6 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 -1 ---A--- null}
+r -t 9.330048 -s 4 -d 6 -p tcp -e 40 -c 0 -i 2 -a 0 -x {1.0 6.0 0 ---A--- null}
