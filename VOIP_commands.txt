@@ -1,33 +1,46 @@
------ Assign IP to router -----
-1. enable
-2. configure terminal
-3. interface fastEthernet 0/0
-4. ip address 192.168.1.1 255.255.255.0
-5. no shutdown
+first of all we take 2811 router
+ip phones and switch 2950-24
 
------ DHCP -----
-1. ip dhcp pool [pool_name]
-2. network 192.168.1.0 255.255.255.0
-3. default-router 192.168.1.1
-4. option 150 ip 192.168.1.1
+then we assign ip address to router
 
------ Telephony Service on Router -----
-1. telephony-service
-2. max-dn [any-number]
-3. max-ephones [any-number]
+now we apply dhcp on router.
+
+before writing ip dhcp pool voice we give this command
+option 150 ip 192.168.1.1 and then exit.
+
+then we write telephony services and press enter
+
+then max-dn 5(any number depends upon maximum ip phones)
+
+then max-ephones 5
+
 ip source-address 192.168.1.1 port 2000
-4. auto assign 1 to 9
 
------ Switch Configuration -----
-1. enable
-2. configure terminal
-3. interface range fastEthernet 0/1 - fastEthernet 0/4
-4. switchport mode access
-5. switchport voice vlan 1
+auto assign 1 to 9
+ now we close the router 
+and enter the switch
+
+now we open the switch
+
+interface range fa 0/0 - 5 depending upon the range
 
 
------ Router -----
-1. ephone-dn 1
-2. number [any-digit-number]
-3. exit
-...............
+switchport mode access 
+
+switch voice(ip dhcp) vlan 1
+
+now close the switch and open the router
+
+now we assign the phone numbers
+
+ephones-dn1 
+then assign the number
+exit 
+
+repeat it for all phones
+
+
+
+
+
+
