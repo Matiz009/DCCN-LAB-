@@ -33,8 +33,9 @@ now close the switch and open the router
 
 now we assign the phone numbers
 
-ephones-dn1 
-then assign the number
+ephone-dn1 
+then assign the number using number [number]
+
 exit 
 
 repeat it for all phones
